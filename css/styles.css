@@ -19,22 +19,22 @@ body {
    margin: 20px 10px;
  }
 
- /* Registration */
+ /* Home Page */
  
-.registration-section{
+.home-section{
    margin-top: 3rem;
 }
 
-.registration-box-text {
+.home-box-text {
   padding-right: 10%;
 }
 
-.registration-text{
+.home-text{
    margin-bottom: 30px;
    font-family: "Montserrat-Bold";
 }
 
-.registration-image{
+.home-image{
    width: 30%;
    position: absolute;
    left: 18%
@@ -79,3 +79,30 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
+ /* Registration Page */
+
+ .register-form{
+   text-align: center;
+  margin: 0 35% 0;
+
+ }
+ 
+ .register-title{
+   margin: 20px 0 20px;
+   font-family: "Montserrat-Bold";
+   font-size: 4rem;
+ }
+ 
+ .register-window{
+   padding: 15px;
+   font-size: 25px;
+   
+ }
+
+ .register-icons{
+padding: 10px 10px;
+background-color: bisque;
+border-radius: 25%;
+ }
+
