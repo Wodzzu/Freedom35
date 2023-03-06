@@ -21,20 +21,20 @@ body {
 
  /* Home Page */
  
-.home-section{
+.welcome-section{
    margin-top: 3rem;
 }
 
-.home-box-text {
+.welcome-box-text {
   padding-right: 10%;
 }
 
-.home-text{
+.welcome-text{
    margin-bottom: 30px;
    font-family: "Montserrat-Bold";
 }
 
-.home-image{
+.welcome-image{
    width: 30%;
    position: absolute;
    left: 18%
@@ -55,9 +55,10 @@ body {
    text-decoration: none;
 }
 .register-button:hover{
-   background: #71C5F0;
+   background: #fff;
   text-decoration: none;
-  color: #ffffff;
+  color: #49A5F5;
+  border: solid #49A5F5 5px;
 }
 
 .login-button{
@@ -106,7 +107,7 @@ background-color: bisque;
 border-radius: 25% 0 0 25%;
 display: block;
 position: relative;
-left: 4px;
+left: 5px;
 
  }
 
@@ -132,3 +133,21 @@ left: 4px;
   font-size: 20px;
   font-weight: bold;
  }
+
+ @media (max-width: 992px) {
+  .welcome-section {
+    text-align: center;
+  }
+
+  .welcome-image {
+    width: 40%;
+    margin-bottom: 15px;
+    position: static;
+  }
+  .register-button {
+    margin-bottom: 15px;
+  }
+  .login-button {
+    margin-bottom: 15px;
+  }
+}
