@@ -19,6 +19,27 @@ body {
    margin: 20px 10px;
  }
 
+ /* Footer */
+
+ #footer{
+text-align: center;
+background-color: #49A5F5;
+color: #fff;
+padding: 30px 0 12px;
+ }
+
+.footer-welcome-page{
+  margin-top: 8%;
+}
+
+ .footer-login-page{
+  margin-top: 12.6%;
+ }
+
+ .footer-registration-page{
+  margin-top: 4.7%;
+ }
+
  /* Home Page */
  
 .welcome-section{
