@@ -83,25 +83,25 @@ body {
 
  /* Registration Page */
 
- .registration-container{
+ .main-container{
   text-align: center;
  margin-top: 10px;
  margin-bottom: 15px;
  }
  
- .registration-heading{
+ .main-heading{
   font-size: 3.5rem;
   font-family: "Montserrat-Bold";
   margin-bottom: 15px;
   font-weight: bold;
  }
 
- .register-window{
+ .type-window{
   padding: 10px;
    
  }
 
- .register-icons{
+ .text-icons{
 padding: 20px;
 background-color: bisque;
 border-radius: 25% 0 0 25%;
@@ -114,6 +114,7 @@ left: 5px;
  .text-window{
   padding: 15px 10px 14px 10px;
     font-size: 16px;
+    font-weight:700;
     border-width: 1.5px;
     border-color: bisque;
     background-color: #FFFFFF;
